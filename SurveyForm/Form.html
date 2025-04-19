@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Survey Form</title>
+    <style>
+        h1 {
+            color: white;
+        }
+
+        body {
+            background-color: green;
+        }
+
+        div {
+            background-color: rgb(238, 224, 198);
+        }
+
+        .divider {
+            padding: 20px;
+        }
+
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .row {
+            padding-bottom: 15px;
+        }
+        button:hover {
+             background-color: #0be881;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Abc Academy Survey Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td>
+                </tr>
+                <tr>
+                    <td class="row"><input type="text" placeholder="Enter your name "></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td class="row"><input type="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                </tr>
+                <tr>
+                    <td class="row"><input type="number" placeholder="Enter your age"></td>
+                </tr>
+                <tr>
+                    <td>Which option describes you?</td>
+                </tr>
+                <tr>
+                    <td class="row">
+                        <select>
+                            <option>Student</option>
+                            <option>Intern</option>
+                            <option>Working Professional</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Would you refer abc academy to your friend?</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="refer">Yes
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="refer">No
+                    </td>
+                </tr>
+                <tr>
+                    <td class="row">
+                        <input type="radio" name="refer">May be
+                    </td>
+                </tr>
+                <tr>
+                    <td>language and Framework known?(check all that apply)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">C
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">C++
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Java
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Python
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">JavaScript
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">React
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Angular
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Django
+                    </td>
+                </tr>
+                <tr>
+                    <td class="row">
+                        <input type="checkbox">Spring
+                    </td>
+                </tr>
+                <tr>
+                    <td>Any comments or Suggestion</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="Comments" rows="4" cols="50" placeholder="Write your comments here"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" value="submit">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
